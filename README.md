@@ -82,7 +82,7 @@ python compare.py
 python build_report.py --username YOUR_GITHUB_USERNAME --repo YOUR_REPO_NAME
 ```
 
-The patched report generator checks for all four **required** 500-episode evaluation JSON files and the guided 500-episode result. It generates `assignment1_report.pdf` in the project root using real metrics and training/evaluation figures, describing the hybrid guided result separately. Review the generated PDF before submission. Add the actual GitHub repository link to the Canvas submission as required.
+The patched report generator checks for all four **required** 500-episode evaluation JSON files and the guided 500-episode result. It generates `assignment1_report.pdf` in the project root using real metrics and training/evaluation figures, describing the hybrid guided result separately. 
 
 Expected key files for each run: `metrics.json`, `training.csv`, `evaluation.csv`, `training_curve.png`, `evaluation_histogram.png`, `policy.pt`, plus intermediate checkpoints if enabled. Do not delete `runs/` when updating code.
 
@@ -92,5 +92,3 @@ Expected key files for each run: `metrics.json`, `training.csv`, `evaluation.csv
 - CartPole and Pong: test preprocessing, return recursion, action restrictions, gradient direction, baseline behavior, and training/evaluation API paths. `validate_envs.py` prints the first ten steps.
 - Additional Pong checks: inspect `runs/pong_input_audit/pong_input_audit.png` for visible paddles/ball and motion; check policy entropy, action fractions, checkpointed updates, and empirical rewards.
 - Limitations: one training seed per condition; paired evaluation differences do not measure uncertainty across training seeds. The guided method changes the supervision and update schedule, so further controlled ablations are necessary.
-
-All dependencies come from `requirements.txt` and are installable with ordinary pip packages. Source code and experiments should remain individually developed and documented according to course rules.
