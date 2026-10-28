@@ -1,0 +1,64 @@
+{
+  "parameters": {
+    "K": 15,
+    "cf": 100,
+    "ch": 2,
+    "gamma": 0.95,
+    "max_waiting": 200,
+    "arrivals": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "T": 500
+  },
+  "value_iteration_iterations": 650,
+  "value_iteration_last_delta": 4.547473508864641e-13,
+  "policy_iteration_iterations": 6,
+  "bellman_residual": 9.094947017729282e-13,
+  "finite_vs_infinite_max_abs_difference": 4.938101483276114e-09,
+  "policy_iteration_vs_value_iteration_max_abs_difference": 2.7284841053187847e-12,
+  "policy_agreement": true,
+  "dispatch_states_min": 13,
+  "dispatch_states_max": 200,
+  "dispatch_states_count": 188,
+  "policy_is_single_threshold": true,
+  "value_at_state_0": 576.6701677662177,
+  "value_at_state_15": 676.6701677662177,
+  "value_at_state_40": 893.2613832128965,
+  "value_at_state_200": 3821.586477183887,
+  "model_vs_monte_carlo_at_40": {
+    "mean": 894.3618492128012,
+    "sample_std": 31.88078183694335,
+    "standard_error": 1.0081588419166778,
+    "ci95_lower": 892.3858578826445,
+    "ci95_upper": 896.3378405429579,
+    "episodes": 1000
+  },
+  "always_wait_monte_carlo_at_40": {
+    "mean": 3734.8107499368157,
+    "sample_std": 148.77178701845486,
+    "standard_error": 4.704576985517879,
+    "ci95_lower": 3725.5897790452004,
+    "ci95_upper": 3744.031720828431,
+    "episodes": 1000
+  },
+  "always_dispatch_monte_carlo_at_40": {
+    "mean": 2077.437044985443,
+    "sample_std": 4.915179343722371,
+    "standard_error": 0.1554316183437433,
+    "ci95_lower": 2077.1323990134892,
+    "ci95_upper": 2077.741690957397,
+    "episodes": 1000
+  },
+  "edge_tests": {
+    "zero_queue_waits": true,
+    "deterministic_zero_arrivals_zero_value_at_0": true,
+    "myopic_gamma_zero": true,
+    "free_dispatch_all_positive_states": true,
+    "value_nondecreasing": true,
+    "transitions_valid": true
+  }
+}

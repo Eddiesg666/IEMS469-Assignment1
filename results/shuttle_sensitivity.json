@@ -1,0 +1,50 @@
+[
+  {
+    "case": "default",
+    "dispatch_cost": 100,
+    "holding_cost": 2,
+    "threshold": 13,
+    "value_at_40": 893.2613832128948,
+    "iterations": 650
+  },
+  {
+    "case": "less_expensive_shuttle",
+    "dispatch_cost": 50,
+    "holding_cost": 2,
+    "threshold": 11,
+    "value_at_40": 570.6863636750943,
+    "iterations": 642
+  },
+  {
+    "case": "more_expensive_shuttle",
+    "dispatch_cost": 200,
+    "holding_cost": 2,
+    "threshold": 14,
+    "value_at_40": 1504.2070217350629,
+    "iterations": 690
+  },
+  {
+    "case": "higher_waiting_cost",
+    "dispatch_cost": 100,
+    "holding_cost": 5,
+    "threshold": 10,
+    "value_at_40": 1252.5956938623426,
+    "iterations": 684
+  },
+  {
+    "case": "lower_waiting_cost",
+    "dispatch_cost": 100,
+    "holding_cost": 1,
+    "threshold": 14,
+    "value_at_40": 752.1035108675288,
+    "iterations": 644
+  },
+  {
+    "case": "free_shuttle",
+    "dispatch_cost": 0,
+    "holding_cost": 2,
+    "threshold": 1,
+    "value_at_40": 77.227,
+    "iterations": 20
+  }
+]

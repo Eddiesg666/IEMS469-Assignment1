@@ -1,0 +1,163 @@
+{
+  "game": "pong",
+  "experiment": "UNTRAINED policy control",
+  "episodes": 5,
+  "mean_reward": -19.8,
+  "sample_std": 0.8366600265340756,
+  "episode_rewards": [
+    -19.0,
+    -20.0,
+    -19.0,
+    -20.0,
+    -21.0
+  ],
+  "episode_lengths": [
+    1256,
+    979,
+    1076,
+    1041,
+    946
+  ],
+  "first10_trace": [
+    {
+      "step": 1,
+      "state": {
+        "difference_nonzero_pixels": 0
+      },
+      "policy_probabilities": [
+        0.4976992905139923,
+        0.5023007392883301
+      ],
+      "network_action": 0,
+      "env_action": 2,
+      "reward": 0.0,
+      "done": false
+    },
+    {
+      "step": 2,
+      "state": {
+        "difference_nonzero_pixels": 20
+      },
+      "policy_probabilities": [
+        0.4980051517486572,
+        0.5019949078559875
+      ],
+      "network_action": 1,
+      "env_action": 3,
+      "reward": 0.0,
+      "done": false
+    },
+    {
+      "step": 3,
+      "state": {
+        "difference_nonzero_pixels": 0
+      },
+      "policy_probabilities": [
+        0.4976992905139923,
+        0.5023007392883301
+      ],
+      "network_action": 0,
+      "env_action": 2,
+      "reward": 0.0,
+      "done": false
+    },
+    {
+      "step": 4,
+      "state": {
+        "difference_nonzero_pixels": 8
+      },
+      "policy_probabilities": [
+        0.49787962436676025,
+        0.5021203756332397
+      ],
+      "network_action": 0,
+      "env_action": 2,
+      "reward": 0.0,
+      "done": false
+    },
+    {
+      "step": 5,
+      "state": {
+        "difference_nonzero_pixels": 32
+      },
+      "policy_probabilities": [
+        0.4978208839893341,
+        0.5021791458129883
+      ],
+      "network_action": 1,
+      "env_action": 3,
+      "reward": 0.0,
+      "done": false
+    },
+    {
+      "step": 6,
+      "state": {
+        "difference_nonzero_pixels": 4
+      },
+      "policy_probabilities": [
+        0.4971939027309418,
+        0.5028061270713806
+      ],
+      "network_action": 1,
+      "env_action": 3,
+      "reward": 0.0,
+      "done": false
+    },
+    {
+      "step": 7,
+      "state": {
+        "difference_nonzero_pixels": 32
+      },
+      "policy_probabilities": [
+        0.49725058674812317,
+        0.5027493834495544
+      ],
+      "network_action": 1,
+      "env_action": 3,
+      "reward": 0.0,
+      "done": false
+    },
+    {
+      "step": 8,
+      "state": {
+        "difference_nonzero_pixels": 32
+      },
+      "policy_probabilities": [
+        0.4970896244049072,
+        0.5029103755950928
+      ],
+      "network_action": 1,
+      "env_action": 3,
+      "reward": 0.0,
+      "done": false
+    },
+    {
+      "step": 9,
+      "state": {
+        "difference_nonzero_pixels": 32
+      },
+      "policy_probabilities": [
+        0.49781501293182373,
+        0.5021849870681763
+      ],
+      "network_action": 0,
+      "env_action": 2,
+      "reward": 0.0,
+      "done": false
+    },
+    {
+      "step": 10,
+      "state": {
+        "difference_nonzero_pixels": 8
+      },
+      "policy_probabilities": [
+        0.49752455949783325,
+        0.5024754405021667
+      ],
+      "network_action": 0,
+      "env_action": 2,
+      "reward": 0.0,
+      "done": false
+    }
+  ]
+}

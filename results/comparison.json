@@ -1,0 +1,56 @@
+[
+  {
+    "game": "cartpole",
+    "baseline": "none",
+    "n": 500,
+    "mean": 126.624,
+    "sd": 5.69380917539846,
+    "train_first100": 38.41,
+    "train_last100": 116.74
+  },
+  {
+    "game": "cartpole",
+    "baseline": "running",
+    "n": 500,
+    "mean": 500.0,
+    "sd": 0.0,
+    "train_first100": 51.54,
+    "train_last100": 498.41
+  },
+  {
+    "game": "cartpole",
+    "contrast": "running minus none",
+    "paired_mean": 373.376,
+    "paired_ci95": [
+      372.87691562080954,
+      373.8750843791904
+    ]
+  },
+  {
+    "game": "pong",
+    "baseline": "none",
+    "n": 500,
+    "mean": -20.56,
+    "sd": 0.6474862754946299,
+    "train_first100": -20.34,
+    "train_last100": -20.58
+  },
+  {
+    "game": "pong",
+    "baseline": "running",
+    "n": 500,
+    "mean": -20.156,
+    "sd": 0.923780678236434,
+    "train_first100": -20.42,
+    "train_last100": -20.37
+  },
+  {
+    "game": "pong",
+    "contrast": "running minus none",
+    "paired_mean": 0.404,
+    "paired_ci95": [
+      0.3033153953773665,
+      0.5046846046226335
+    ]
+  }
+]

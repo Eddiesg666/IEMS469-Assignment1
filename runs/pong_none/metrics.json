@@ -1,0 +1,420 @@
+{
+  "environment": "ALE/Pong-v5",
+  "game": "pong",
+  "baseline": "none",
+  "config": {
+    "game": "pong",
+    "baseline": "none",
+    "episodes": 200,
+    "batch_episodes": 2,
+    "lr": 0.0003,
+    "gamma": 0.99,
+    "seed": 2026,
+    "device": "auto",
+    "eval_episodes": 500,
+    "train_chunk": 256,
+    "max_steps": 0,
+    "start_fire": true,
+    "out": "runs/pong_none",
+    "pong_observation": "stackmotion",
+    "entropy_coef": 0.0,
+    "eval_stochastic": true,
+    "checkpoint_every": 50,
+    "resume_from": "runs/pong_none/checkpoint_latest.pt",
+    "pong_return_mode": "episode",
+    "pong_update_mode": "episode",
+    "rallies_per_update": 5,
+    "pong_network": "geometry",
+    "pong_guide_coef": 0.0,
+    "action2_is_down": false
+  },
+  "pytorch_version": "2.8.0",
+  "device_resolved": "mps",
+  "train_last100_mean": -20.58,
+  "train_first100_mean": -20.34,
+  "train_episode_count": 200,
+  "train_capped_count": 0,
+  "eval_episode_count": 500,
+  "eval_mean": -20.56,
+  "eval_std_sample": 0.6474862754946299,
+  "eval_standard_error": 0.028956466530082974,
+  "eval_ci95_normal": [
+    -20.616754674398962,
+    -20.503245325601036
+  ],
+  "eval_min": -21.0,
+  "eval_max": -18.0,
+  "eval_capped_count": 0,
+  "gradient_norm_mean_before_clipping": 0.03820330234244466,
+  "policy_updates": 100,
+  "baseline_last_ema_return": -1.9005954702123211,
+  "eval_mean_action_right_fraction": 0.4382111668996722,
+  "eval_mean_policy_entropy": 0.685067846072453,
+  "pong_return_mode": "episode",
+  "evaluation_method": "stochastic sampling from two-action policy",
+  "trace_train_first10": [
+    {
+      "step": 1,
+      "state": {
+        "frame_channel_nonzero_pixels": [
+          16,
+          16,
+          0
+        ]
+      },
+      "policy_probabilities": [
+        0.48549196124076843,
+        0.5145081281661987
+      ],
+      "network_action": 1,
+      "env_action": 3,
+      "reward": 0.0,
+      "done": false
+    },
+    {
+      "step": 2,
+      "state": {
+        "frame_channel_nonzero_pixels": [
+          16,
+          16,
+          16
+        ]
+      },
+      "policy_probabilities": [
+        0.4855160117149353,
+        0.5144840478897095
+      ],
+      "network_action": 1,
+      "env_action": 3,
+      "reward": 0.0,
+      "done": false
+    },
+    {
+      "step": 3,
+      "state": {
+        "frame_channel_nonzero_pixels": [
+          16,
+          16,
+          32
+        ]
+      },
+      "policy_probabilities": [
+        0.4848323464393616,
+        0.5151675939559937
+      ],
+      "network_action": 1,
+      "env_action": 3,
+      "reward": 0.0,
+      "done": false
+    },
+    {
+      "step": 4,
+      "state": {
+        "frame_channel_nonzero_pixels": [
+          16,
+          16,
+          32
+        ]
+      },
+      "policy_probabilities": [
+        0.4847889542579651,
+        0.5152110457420349
+      ],
+      "network_action": 0,
+      "env_action": 2,
+      "reward": 0.0,
+      "done": false
+    },
+    {
+      "step": 5,
+      "state": {
+        "frame_channel_nonzero_pixels": [
+          16,
+          16,
+          4
+        ]
+      },
+      "policy_probabilities": [
+        0.4857580065727234,
+        0.5142420530319214
+      ],
+      "network_action": 0,
+      "env_action": 2,
+      "reward": 0.0,
+      "done": false
+    },
+    {
+      "step": 6,
+      "state": {
+        "frame_channel_nonzero_pixels": [
+          16,
+          16,
+          32
+        ]
+      },
+      "policy_probabilities": [
+        0.4860600531101227,
+        0.5139400362968445
+      ],
+      "network_action": 0,
+      "env_action": 2,
+      "reward": 0.0,
+      "done": false
+    },
+    {
+      "step": 7,
+      "state": {
+        "frame_channel_nonzero_pixels": [
+          16,
+          16,
+          32
+        ]
+      },
+      "policy_probabilities": [
+        0.48477405309677124,
+        0.5152259469032288
+      ],
+      "network_action": 0,
+      "env_action": 2,
+      "reward": 0.0,
+      "done": false
+    },
+    {
+      "step": 8,
+      "state": {
+        "frame_channel_nonzero_pixels": [
+          16,
+          16,
+          32
+        ]
+      },
+      "policy_probabilities": [
+        0.48503124713897705,
+        0.5149688124656677
+      ],
+      "network_action": 1,
+      "env_action": 3,
+      "reward": 0.0,
+      "done": false
+    },
+    {
+      "step": 9,
+      "state": {
+        "frame_channel_nonzero_pixels": [
+          16,
+          16,
+          8
+        ]
+      },
+      "policy_probabilities": [
+        0.485192209482193,
+        0.5148077607154846
+      ],
+      "network_action": 1,
+      "env_action": 3,
+      "reward": 0.0,
+      "done": false
+    },
+    {
+      "step": 10,
+      "state": {
+        "frame_channel_nonzero_pixels": [
+          16,
+          16,
+          32
+        ]
+      },
+      "policy_probabilities": [
+        0.48403307795524597,
+        0.5159668922424316
+      ],
+      "network_action": 1,
+      "env_action": 3,
+      "reward": 0.0,
+      "done": false
+    }
+  ],
+  "trace_eval_first10": [
+    {
+      "step": 1,
+      "state": {
+        "frame_channel_nonzero_pixels": [
+          16,
+          16,
+          0
+        ]
+      },
+      "policy_probabilities": [
+        0.4450358748435974,
+        0.5549641251564026
+      ],
+      "network_action": 1,
+      "env_action": 3,
+      "reward": 0.0,
+      "done": false
+    },
+    {
+      "step": 2,
+      "state": {
+        "frame_channel_nonzero_pixels": [
+          16,
+          16,
+          16
+        ]
+      },
+      "policy_probabilities": [
+        0.44403067231178284,
+        0.5559693574905396
+      ],
+      "network_action": 1,
+      "env_action": 3,
+      "reward": 0.0,
+      "done": false
+    },
+    {
+      "step": 3,
+      "state": {
+        "frame_channel_nonzero_pixels": [
+          16,
+          16,
+          32
+        ]
+      },
+      "policy_probabilities": [
+        0.4441661238670349,
+        0.5558338761329651
+      ],
+      "network_action": 1,
+      "env_action": 3,
+      "reward": 0.0,
+      "done": false
+    },
+    {
+      "step": 4,
+      "state": {
+        "frame_channel_nonzero_pixels": [
+          16,
+          16,
+          32
+        ]
+      },
+      "policy_probabilities": [
+        0.4439808130264282,
+        0.5560192465782166
+      ],
+      "network_action": 1,
+      "env_action": 3,
+      "reward": 0.0,
+      "done": false
+    },
+    {
+      "step": 5,
+      "state": {
+        "frame_channel_nonzero_pixels": [
+          16,
+          16,
+          32
+        ]
+      },
+      "policy_probabilities": [
+        0.4438968300819397,
+        0.5561031699180603
+      ],
+      "network_action": 1,
+      "env_action": 3,
+      "reward": 0.0,
+      "done": false
+    },
+    {
+      "step": 6,
+      "state": {
+        "frame_channel_nonzero_pixels": [
+          16,
+          8,
+          24
+        ]
+      },
+      "policy_probabilities": [
+        0.4455873370170593,
+        0.5544127225875854
+      ],
+      "network_action": 0,
+      "env_action": 2,
+      "reward": 0.0,
+      "done": false
+    },
+    {
+      "step": 7,
+      "state": {
+        "frame_channel_nonzero_pixels": [
+          8,
+          14,
+          6
+        ]
+      },
+      "policy_probabilities": [
+        0.44600552320480347,
+        0.5539944767951965
+      ],
+      "network_action": 0,
+      "env_action": 2,
+      "reward": 0.0,
+      "done": false
+    },
+    {
+      "step": 8,
+      "state": {
+        "frame_channel_nonzero_pixels": [
+          14,
+          16,
+          30
+        ]
+      },
+      "policy_probabilities": [
+        0.4462655186653137,
+        0.5537344813346863
+      ],
+      "network_action": 0,
+      "env_action": 2,
+      "reward": 0.0,
+      "done": false
+    },
+    {
+      "step": 9,
+      "state": {
+        "frame_channel_nonzero_pixels": [
+          16,
+          16,
+          32
+        ]
+      },
+      "policy_probabilities": [
+        0.4451504647731781,
+        0.5548495054244995
+      ],
+      "network_action": 0,
+      "env_action": 2,
+      "reward": 0.0,
+      "done": false
+    },
+    {
+      "step": 10,
+      "state": {
+        "frame_channel_nonzero_pixels": [
+          16,
+          16,
+          32
+        ]
+      },
+      "policy_probabilities": [
+        0.4428814649581909,
+        0.5571185946464539
+      ],
+      "network_action": 0,
+      "env_action": 2,
+      "reward": 0.0,
+      "done": false
+    }
+  ],
+  "pong_startup_fire_not_learned": true
+}

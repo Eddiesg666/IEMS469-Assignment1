@@ -1,0 +1,31 @@
+# Python environment and cache
+.venv/
+__pycache__/
+.pytest_cache/
+*.pyc
+.DS_Store
+
+# Local environment files
+.env
+.env.*
+
+# Large trained model files
+*.pt
+*.pth
+
+# Old code backups
+*backup*.py
+pg_before_*.py
+
+# Temporary archives
+*.zip
+
+# Exclude preliminary experiments
+runs/*
+
+# Keep final experiment results
+!runs/cartpole_none/
+!runs/cartpole_running/
+!runs/pong_none/
+!runs/pong_running/
+!runs/pong_v5_guided_probe/
